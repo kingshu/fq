@@ -1,0 +1,26 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script> 
+	
+	<script>
+			
+		var loop = function() {
+			setTimeout( function() {
+				$('#res').load('getter.php', function() {
+					console.log ("Loaded");
+				})
+				loop();
+			}, 2000);
+		}
+		
+		$(document).ready(function() {
+			loop();		
+		});
+			
+		</script>
+</head>
+<body>
+	<div id='res'>
+	</div>
+</body>
+</html>

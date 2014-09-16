@@ -1,0 +1,126 @@
+html {
+	background-image:url('bg4.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:100%;
+	width:100%;
+	margin:0px;
+}
+body {
+	font-family:Arial, Sans-serif;
+	margin:0px;
+	padding:0px;
+	background-color:#424254;
+	background-image:url('tileBG3.png');
+	background-repeat:repeat-xy;
+}
+
+#header {
+	background-color:rgba(53, 19, 48, .75);
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	text-align:bottom;
+	color:#E8CAA4;
+	border-bottom:3px solid #E8CAA4;
+	overflow:auto;
+}
+	#header .title {
+		font-family:'bebas_neueregular';
+		font-size:50px;
+		float:left;
+		text-decoration:none;
+		color:#E8CAA4;
+	}
+	#header .button {
+		background-color:#351330;
+		color:#E8CAA4;
+		font-family:'bebas_neueregular';
+		font-size:25px;
+		width:100px;
+		text-align:center;
+		vertical-align:middle;
+		float:right;
+		margin-top:5px;
+		border: 3px solid #E8CAA4;
+	}
+		#header .button a {
+			display:block;
+			padding:5px;
+			color:#E8CAA4;
+			font-family:'bebas_neueregular';
+			text-decoration:none;
+		}
+	#coins {
+		color:#E8CAA4;
+		font-family:'bebas_neueregular';
+		font-size:20px;
+		padding:3px;
+		padding-right:25px;
+		text-align:center;
+		vertical-align: bottom;
+		float:right;
+		margin-top:10px;
+		position:relative;
+		overflow:hidden;
+	}
+		/*#coins a {
+			display:inline-block;
+			margin-top:10px;
+			padding:5px;
+			color:#E8CAA4;
+			font-family:'bebas_neueregular';
+			text-decoration:none;
+		}*/
+		#coinsSpan {
+			font-size:30px;
+			color:#E8CAA4;
+			padding-right:5px;
+			position:relative;
+			float:left;
+		}
+		#coinsWordSpan {
+			color:#E8CAA4;
+			padding-right:5px;
+			position:relative;
+			float:left;
+			margin-top:9px;
+		}
+	
+#mainContainer {
+	text-align:center;
+	position:absolute;
+	top:100px;
+	bottom:100px;
+	width:100%;
+	padding:0px;
+}
+
+#loadingDiv {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-25px;
+	margin-top:-25px;
+	padding:10px;
+	background-color:#351330;
+	border: 3px solid #E8CAA4;
+}
+		
+#footer {
+	bottom:0;
+	width:100%;
+	background-color:rgba(53, 19, 48, .75);
+	color:#E8CAA4;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-top:3px solid #E8CAA4;
+	position:fixed;
+	
+	/* FONT */
+	font-family:'bebas_neueregular';
+	font-size:25px;
+	font-weight:normal;
+}

@@ -1,0 +1,76 @@
+/* Document Styles */
+html {
+	min-height:100%;
+	background-color:#1C2130;
+	background-image:url('bg.png');
+	background-repeat:none;
+	background-attachment:fixed;
+	background-position:center center; 
+}
+	
+body {
+  font-family: Arial, Helvetica, 'Lucida Grande', Verdana, sans-serif;
+}
+
+/* Header Styles */
+h1 {
+	color: #FFEAAD;
+	font-weight:normal;
+	font-size:45px;
+	font-family:'flex_displaythin';
+}
+
+h1 a {
+  text-decoration: none;
+  color: #FFEAAD;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'flex_displaythin';
+    src: url('flex_displaythin/flexdisplay-thin-webfont.eot');
+    src: url('flex_displaythin/flexdisplay-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('flex_displaythin/flexdisplay-thin-webfont.woff') format('woff'),
+         url('flex_displaythin/flexdisplay-thin-webfont.ttf') format('truetype'),
+         url('flex_displaythin/flexdisplay-thin-webfont.svg#flex_displaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Wrapper Styles */
+#wrapper {
+	width: 600px;
+	height: 400px;
+	text-align: center;
+	color:#B3E099;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+	margin: auto;
+	
+	padding:20px;
+}
+
+/* Button Styles */
+a.button {
+		color: #FFEAAD;
+		font-size:18px;
+		text-decoration:none;
+		font-family:'flex_displaythin';
+		padding-top:10px;
+		padding-bottom:10px;
+		padding-left:20px;
+		padding-right:20px;
+		display:block;
+		width:20px;
+		background-color: #D14334;
+		border:1px solid #FFEAAD;
+	}

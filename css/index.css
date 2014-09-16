@@ -1,0 +1,153 @@
+html {
+	background-image:url('bg4.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+	height:100%;
+	width:100%;
+	margin:0px;
+}
+body {
+	font-family:Arial, Sans-serif;
+	margin:0px;
+	padding:0px;
+	background-color:#424254;
+}
+
+#topBar {
+	background-color:#351330;
+	padding-top:40px;
+	padding-bottom:40px;
+	text-align:center;
+	color:#E8CAA4;
+	border-bottom:3px solid #E8CAA4;
+}
+	#topBar .title {
+		font-family:'bebas_neueregular';
+		font-size:75px;
+	}
+	#topBar .slogan {
+		font-family:'flex_displaythin';
+		font-size:18px;
+		font-weight:normal;
+	}
+#topBarLoggedIn {
+	background-color:#351330;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	text-align:bottom;
+	color:#E8CAA4;
+	border-bottom:3px solid #E8CAA4;
+	overflow:auto;
+}
+	#topBarLoggedIn .title {
+		font-family:'bebas_neueregular';
+		font-size:50px;
+		float:left;
+	}
+	#topBarLoggedIn .button {
+		background-color:#351330;
+		color:#E8CAA4;
+		font-family:'bebas_neueregular';
+		font-size:25px;
+		width:100px;
+		text-align:center;
+		vertical-align:middle;
+		float:right;
+		margin-top:5px;
+		border: 3px solid #E8CAA4;
+	}
+		#topBarLoggedIn .button a {
+			display:block;
+			padding:5px;
+			color:#E8CAA4;
+			font-family:'bebas_neueregular';
+			text-decoration:none;
+		}
+	#topBarLoggedIn .coins {
+		background-color:#351330;
+		color:#E8CAA4;
+		font-family:'bebas_neueregular';
+		font-size:20px;
+		padding:3px;
+		padding-right:25px;
+		text-align:center;
+		vertical-align:middle;
+		float:right;
+		margin-top:5px;
+	}
+		#topBarLoggedIn .coins a {
+			display:block;
+			padding:5px;
+			color:#E8CAA4;
+			font-family:'bebas_neueregular';
+			text-decoration:none;
+		}
+		#topBarLoggedIn .coins b {
+			font-size:30px;
+			color:#E8CAA4;
+		}
+.floatingButton {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-250px;
+	background-color:#351330;
+	width:500px;
+	color:#E8CAA4;
+	font-family:'bebas_neueregular';
+	font-size:40px;
+	text-align:center;
+	vertical-align:middle;
+	border: 3px solid #E8CAA4;
+}
+	.floatingButton a {
+		display:block;
+		padding:20px;
+		color:#E8CAA4;
+		font-family:'bebas_neueregular';
+		text-decoration:none;
+	}
+#bottomBar {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:#351330;
+	color:#E8CAA4;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-top:3px solid #E8CAA4;
+}
+	#bottomBar .slogan {
+		font-family:'flex_displaythin';
+		font-size:18px;
+		font-weight:normal;
+	}
+	#bottomBar .footer {
+		font-family:'bebas_neueregular';
+		font-size:25px;
+		font-weight:normal;
+	}
+#bottomBarLoggedIn {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:#351330;
+	color:#E8CAA4;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	border-top:3px solid #E8CAA4;
+}
+	#bottomBarLoggedIn .slogan {
+		font-family:'flex_displaythin';
+		font-size:18px;
+		font-weight:normal;
+	}
+	#bottomBarLoggedIn .footer {
+		font-family:'bebas_neueregular';
+		font-size:25px;
+		font-weight:normal;
+	}

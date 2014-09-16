@@ -1,0 +1,129 @@
+#mainContainer .playDiv {
+	position:relative;
+	display:inline-block;
+	vertical-align: middle;
+}
+#pictureComments {
+	width:100%;
+	margin-bottom:25px;
+}
+
+#pictureComments td {
+	text-align:center;
+}
+.personImg {
+	border:3px solid #351330;
+	height:auto;
+	width:auto;
+}
+/*
+#mainContainer .imgDiv {
+	position:relative;
+	float:left;
+	vertical-align: middle;
+}
+#mainContainer .comments {
+	position:relative;
+	float:right;
+	background-color:orange;
+	margin:40px;
+}*/
+	#mainContainer .comment {
+		position:relative;
+		float:left;
+		clear:both;
+		background-color:white;
+		color:#351330;
+		width:350px;
+		border:3px solid #351330;
+		padding:10px;
+		margin-top:20px;
+	}
+		#mainContainer .comment td {
+			font-size:13px;
+			text-align:left;
+		}
+			#mainContainer .comment td.picture {
+				padding-right:5px;
+				vertical-align:top;
+			}
+			#mainContainer .comment td.personName {
+				font-family:'bebas_neueregular';
+				color:#351330;
+				font-size:20px;
+			}
+		#mainContainer .comment .triangleThing {
+			position:absolute;
+			height:75px;
+			width:75px;
+		}
+/*#mainContainer .buttonsDiv {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	
+	background-color:none;
+	overflow:auto;
+}*/
+#mainContainer input {
+	background-color:white;
+	padding:10px;
+	border:3px solid #351330;
+	color:black;
+	font-size:15px;
+	font-family:"Helvetica";
+}
+#mainContainer .headline {
+	font-weight:bold;
+	font-size:30px;
+	font-family:"bebas_neueregular";
+	color:#E8CAA4;
+	text-shadow: 3px 3px #351330;
+	text-align:left;
+}
+#mainContainer .buttonsDiv {
+	position:relative;
+	float:left;
+	clear:both;
+	text-align:left;
+}
+#mainContainer .button {
+		background-color:#64908A;
+		color:#351330;
+		font-family:'bebas_neueregular';
+		font-size:25px;
+		width:225px;
+		text-align:center;
+		vertical-align:middle;
+		margin-top:5px;
+		border: 3px solid #351330;
+		margin:10px;
+		overflow:auto;
+		display:inline-block;
+	}
+		#mainContainer .button a {
+			display:block;
+			padding:5px;
+			color:#351330;
+			font-family:'bebas_neueregular';
+			text-decoration:none;
+			overflow:auto;
+			vertical-align:middle;
+		}
+		
+		#mainContainer .button td {
+			margin:0px;
+			padding:0px;
+			color:#351330;
+			font-size:25px;
+		}
+		
+		#mainContainer .button img {
+		}
+		
+		#mainContainer .button span {
+		
+		}
